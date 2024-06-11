@@ -14,7 +14,7 @@ function Home() {
   if (!wallet.connected && !wallet.connecting) {
     return (
       <div className="flex flex-col items-center gap-20 justify-center h-full w-full">
-        <h1 className="text-4xl text-white font-bold">
+        <h1 className="text-4xl text-gray-900 font-bold">
           Connect your wallet to create poll and vote!
         </h1>
         <WalletMultiButton />
